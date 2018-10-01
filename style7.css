@@ -1,0 +1,23 @@
+.header{
+	background-size: 100% , 100%;
+	background-attachment: fixed;
+	width: 1310px;
+	height: 600px;
+}
+.slider{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-caption{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 20px;
+}
+.b{
+	font-size: 40px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #82c434;
+}

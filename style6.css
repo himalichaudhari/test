@@ -1,0 +1,44 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-custom{
+	background-color: #282e3e;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px;
+}
+.navbar-custom navbar-nav li a{
+	color: #fff;
+	font-size: 19px;
+	margin-left: 13px;
+}
+.navbar-custom navbar-nav active a{
+	color: #fff;
+	background-color: #82c434;
+}
+.navbar-custom navbar-brand{
+	color: #fff;
+	font-size: 27px;
+	margin-left: 15px;
+}
+.navbar-custom navbar-brand:hover{
+	color: #fff;
+	font-size: 27px;
+}
+.slider{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-caption{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 20px;
+}
+.b{
+	font-size: 40px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #82c434;
+}

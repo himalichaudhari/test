@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+.bgimg{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradiant(27deg,#004E95 50%, #013AGE 50%);
+}
+.centerdiv{
+	width: 350px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradiant(27deg,#013AGE 50%, #004E95 50%); 
+}
+#profilepic{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	left: calc(350px -120px)/2);
+}
+.h2{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.inputbox{
+	width: calc(100% -40%);
+	height: 30px;
+	display: block;
+	margin: auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: black;
+}
+.button{
+	width: calc(100% -40%);
+	height: 30px;
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #0A8486;
+}
+#FORGOT-SECTION{
+	width: calc(100% -40%);
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: dodgerblue;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
